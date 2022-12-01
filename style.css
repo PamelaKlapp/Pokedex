@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: #efefbb;
+    background: linear-gradient(to right, #efc5bb, #e48e78);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+.poke-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.pokemon {
+    background-color: rgb(228, 220, 210);
+    border-radius: 5%;
+    box-shadow: 5px 3px 15px #5a5a5a46;
+    flex-direction: row;
+    margin: 10px;
+    padding: 10px 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.img-container{
+    background: linear-gradient(to right, #f7f6f8, #fbf2c7);;
+    border-radius: 48% 52% 62% 38% / 35% 31% 69% 65% ;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.img-container img{
+    max-width: 90%;
+    max-height: 90%;
+    margin-top: 20px;
+}
+
+.info{
+    margin-top: 10px;
+    padding: 15px 0;
+    text-align: center;
+
+}
+
+.info .number{
+    background-color: rgba(0,0,0,0.1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.info .name{
+    margin: px 0 7px;
+    letter-spacing: 1px;
+}
